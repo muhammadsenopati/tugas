@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mobil Dealer FK" directorySegmentName="seg_0" id="7F84C1E2-1C0E-E449-5284-32977D85CE1C">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:33:24 UTC</createdTime>
+<notes><![CDATA[Relasi one-to-many, di mana satu dealer dapat memiliki banyak mobil, tetapi setiap mobil hanya terkait dengan satu dealer.
+
+Dalam relasi ini, setiap mobil harus memiliki dealer, tetapi dealer tidak wajib memiliki mobil (opsional). Hal ini memungkinkan kondisi di mana beberapa dealer mungkin tidak memiliki stok mobil yang tersedia.]]></notes>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<sourcePk>AFEBB945-CE8D-4741-E53E-97F783194DED</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>Memiliki</nameOnSource>
+<nameOnTarget>Dimiliki oleh</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D11A169F-F885-AAA6-1203-446CEADA4B41</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D61E2370-D3AD-E567-4567-35FE55C7F2DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

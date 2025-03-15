@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D61E2370-D3AD-E567-4567-35FE55C7F2DD" name="Mobil">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:16:08 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mobil" id="FF294C29-468A-F18C-1F0F-7DBE82BD0495">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:16:40 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seri_mobil" id="E9AE73B5-99B9-477F-D31B-A19261E33C75">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:17:03 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_mobil" id="0F0B1AAA-4013-85DB-7A80-EED5F2CFDB99">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:17:42 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="merk_mobil" id="480512A2-61C7-CCDE-93CF-05DD46DA317C">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:18:05 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_mobil" id="04F0B83C-0939-AC0F-2C8C-EA8AE6135B2C">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:19:45 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dealer" id="DE850DD5-FEC9-43D2-45FB-580FC561C2F4">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:33:24 UTC</createdTime>
+<generatorID>7F84C1E2-1C0E-E449-5284-32977D85CE1C</generatorID>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<referedAttribute>9EED9DED-C556-B09D-8B6C-CC9147C3638D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D8077054-F630-54C0-41B1-06CC1871F7FD" name="Mobil PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:16:47 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF294C29-468A-F18C-1F0F-7DBE82BD0495</attributeRef>
+<attributeRef>DE850DD5-FEC9-43D2-45FB-580FC561C2F4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

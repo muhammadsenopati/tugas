@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D11A169F-F885-AAA6-1203-446CEADA4B41" name="Dealer">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:24:23 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_dealer" id="9EED9DED-C556-B09D-8B6C-CC9147C3638D">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:24:37 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lokasi" id="A9B121B2-6097-CF2E-279B-2AC140EF578E">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:24:54 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok" id="45D85176-229F-10C9-9FCB-F60F66194169">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:25:13 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFEBB945-CE8D-4741-E53E-97F783194DED" name="Dealer PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:24:51 UTC</createdTime>
+<ownerDesignName>codelab2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="5C50B48B-E126-AF95-134E-5F5334B722CF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EED9DED-C556-B09D-8B6C-CC9147C3638D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

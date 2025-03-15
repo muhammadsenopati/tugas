@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E13F9C21-3E22-3388-2FDA-8A3CA18ABBE1" name="Dealer">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:45:40 UTC</createdTime>
+<generatorID>D11A169F-F885-AAA6-1203-446CEADA4B41</generatorID>
+<ownerDesignName>codelab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_dealer" id="4A1D9954-0AE9-0D74-922A-3732800C7390">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:45:40 UTC</createdTime>
+<generatorID>9EED9DED-C556-B09D-8B6C-CC9147C3638D</generatorID>
+<ownerDesignName>codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lokasi" id="E8DA1D74-8E86-2577-50E8-FD95DD9B5D1C">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:45:40 UTC</createdTime>
+<generatorID>A9B121B2-6097-CF2E-279B-2AC140EF578E</generatorID>
+<ownerDesignName>codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok" id="C8C60774-BEF8-03D7-19B4-1C8DB5A3045B">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:45:40 UTC</createdTime>
+<generatorID>45D85176-229F-10C9-9FCB-F60F66194169</generatorID>
+<ownerDesignName>codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5173822B-04F9-8D0C-1FF5-6339687A784E" name="Dealer_PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-14 23:45:40 UTC</createdTime>
+<generatorID>AFEBB945-CE8D-4741-E53E-97F783194DED</generatorID>
+<ownerDesignName>codelab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A1D9954-0AE9-0D74-922A-3732800C7390"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
