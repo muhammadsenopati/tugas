@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADF273D8-2AF3-46AC-AA05-B65F0B58A105" name="Buku">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:42:28 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Kode_Buku" id="8C1880C3-9D24-7152-6105-3BA3FCFCC24B">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:42:34 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pengarang" id="F5923FED-0C09-5EDB-0D9A-3C5DC2270C0A">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:42:43 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Kategori_Buku" id="0E38D3B7-01E5-B13B-0284-3CD270489C04">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:42:51 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Judul_Buku" id="560A3E3A-829F-1E7A-EBD5-1BF51DA7FEC8">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:42:59 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A15BB6EF-2A31-042C-1B18-4A65394FCE97" name="Buku PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:43:14 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C1880C3-9D24-7152-6105-3BA3FCFCC24B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

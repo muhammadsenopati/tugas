@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6BCBF10E-8C62-735F-A283-1C6238E917C1" name="Peminjaman">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:40:43 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No_Peminjaman" id="3A8CFC1C-EBC6-C33A-DB63-928EFDCDD0D6">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:41:04 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_Anggota" id="25A56380-0E47-A4BA-C612-AE597F44E72F">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:41:26 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Kembali" id="7C279F68-464A-A788-7525-DCF0C09AA9A2">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:41:45 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Pinjam" id="C9620AF7-7E9F-1F55-DCD4-9A6E45D977EC">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:42:00 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F9D57CCC-797C-24B5-8B0C-EC97AA2D36FE" name="Peminjaman PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-11 11:41:23 UTC</createdTime>
+<ownerDesignName>codelab3</ownerDesignName>
+<engineerTo>
+<item key="0D6F464B-FD59-D890-9306-54678F32D296" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3A8CFC1C-EBC6-C33A-DB63-928EFDCDD0D6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
