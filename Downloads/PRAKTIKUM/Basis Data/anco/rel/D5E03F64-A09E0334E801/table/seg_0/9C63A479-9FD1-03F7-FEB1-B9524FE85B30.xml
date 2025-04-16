@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C63A479-9FD1-03F7-FEB1-B9524FE85B30" name="Relation_7">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Perawatv1_id_perawat" id="97C49C9E-AB1C-A527-61D1-317CDD615AF5">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04EABFB2-EF6D-9177-8503-66BA5662E34C" referredColumn="EA5FDA93-4951-FFBF-DD26-D22154B8150B"/>
+</associations>
+</Column>
+<Column name="Ruangan_id_ruangan" id="D9032EBE-F737-5DA6-3E01-5259ACF9B83C">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C6A1697C-37B3-5A76-DCED-4F8913B1311B" referredColumn="15BC19D3-A65D-1FA9-E411-374F79AC1D4F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8DEAAA57-CB6C-AFD3-C5DA-ADB88EBAC9A1" name="Relation_7_PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97C49C9E-AB1C-A527-61D1-317CDD615AF5"/>
+<colUsage columnID="D9032EBE-F737-5DA6-3E01-5259ACF9B83C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2614859F-65D2-E89C-0C5E-3BD75810DB4C" name="Relation_7_Perawatv1_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>B56764A4-F14A-5F08-6755-E03445D601A2</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97C49C9E-AB1C-A527-61D1-317CDD615AF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F54FC0A-2750-9A58-30BF-AE07E18395A5" name="Relation_7_Ruangan_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>B56764A4-F14A-5F08-6755-E03445D601A2</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9032EBE-F737-5DA6-3E01-5259ACF9B83C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

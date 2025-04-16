@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="04EABFB2-EF6D-9177-8503-66BA5662E34C" containerWithKeyObject="9C63A479-9FD1-03F7-FEB1-B9524FE85B30" localFKIndex="2614859F-65D2-E89C-0C5E-3BD75810DB4C" name="Relation_7_Perawatv1_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>B56764A4-F14A-5F08-6755-E03445D601A2</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<referredTableLongName>Perawatv1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A694E063-83F1-4693-10E2-9A1CFE983678</referredTableID>
+<keyObject>173067B7-9729-F1C2-51C9-D408AC457A3E</keyObject>
+<referredKeyID>173067B7-9729-F1C2-51C9-D408AC457A3E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_perawat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

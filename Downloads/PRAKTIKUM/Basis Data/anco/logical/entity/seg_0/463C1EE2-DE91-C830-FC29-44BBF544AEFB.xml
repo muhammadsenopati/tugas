@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="463C1EE2-DE91-C830-FC29-44BBF544AEFB" name="Perawat">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:47:22 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_perawat" id="F1022DBE-50D1-67D6-3A9D-229A6609D4F0">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:47:34 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama" id="D0887DC3-A0D7-2B71-7504-E3C378F541E5">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:47:44 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shift_kerja" id="CD80583F-4776-BC6B-6CCD-4883A4B33FA8">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:48:18 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9ABE62F4-3547-1E68-BAEB-1D38DA66D133" name="Perawat PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:47:42 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1022DBE-50D1-67D6-3A9D-229A6609D4F0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

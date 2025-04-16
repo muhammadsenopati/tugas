@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B5476D3-351D-E7D5-ACB4-3BBC564848A0" name="Relation_9">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Rekam_Medis_id_rekam_medis" id="E8A431D1-34AC-9663-8D59-4AB97A2D34BB">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D19542A2-1BB9-6DCD-B0D6-99E3569E7D9A" referredColumn="A0B61D43-511C-8BE3-23A2-7A2A2F0E47FF"/>
+</associations>
+</Column>
+<Column name="obat_id_obat" id="8A1A574E-9CBA-4569-A16F-12D11CE1CA00">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3BFD9049-09C5-FB9B-5C9B-E6B240964AE2" referredColumn="3D89AADE-3E9B-1767-8932-5C7E5BF374B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68BEDEF9-692F-6946-A161-F366C35DFB49" name="Relation_9_PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A431D1-34AC-9663-8D59-4AB97A2D34BB"/>
+<colUsage columnID="8A1A574E-9CBA-4569-A16F-12D11CE1CA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="629DEE55-811C-2081-BC5B-BD656172260E" name="Relation_9_Rekam_Medis_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<generatorID>69F61505-505D-8BD6-E6F6-6F88E7F0351F</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8A431D1-34AC-9663-8D59-4AB97A2D34BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4488C3D4-C34A-FBFC-051B-D2391F30781C" name="Relation_9_obat_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<generatorID>69F61505-505D-8BD6-E6F6-6F88E7F0351F</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A1A574E-9CBA-4569-A16F-12D11CE1CA00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

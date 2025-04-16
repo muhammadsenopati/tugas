@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="anco" id="53BD5359-EE4E-47F0-E6F8-F95C977083FA" version="3.5">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 02:43:44 UTC</createdTime>
+<ownerDesignName>Demo modul 1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>53BD5359-EE4E-47F0-E6F8-F95C977083FA</designId>
+</OSDM_Design>

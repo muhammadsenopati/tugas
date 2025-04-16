@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A694E063-83F1-4693-10E2-9A1CFE983678" name="Perawatv1">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>463C1EE2-DE91-C830-FC29-44BBF544AEFB</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_perawat" id="EA5FDA93-4951-FFBF-DD26-D22154B8150B">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>F1022DBE-50D1-67D6-3A9D-229A6609D4F0</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="0223203E-BA7D-CEDE-FC3D-C0EE829E832B">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>D0887DC3-A0D7-2B71-7504-E3C378F541E5</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shift_kerja" id="E23CB203-62E7-3116-61BB-5A00934143AC">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>CD80583F-4776-BC6B-6CCD-4883A4B33FA8</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="173067B7-9729-F1C2-51C9-D408AC457A3E" name="Perawatv1_PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>9ABE62F4-3547-1E68-BAEB-1D38DA66D133</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA5FDA93-4951-FFBF-DD26-D22154B8150B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

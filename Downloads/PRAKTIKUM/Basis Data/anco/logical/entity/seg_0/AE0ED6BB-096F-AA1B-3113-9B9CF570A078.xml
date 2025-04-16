@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE0ED6BB-096F-AA1B-3113-9B9CF570A078" name="Rekam Medis">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 02:48:15 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_rekam_medis" id="FC39B4EB-8DAB-1114-3E4B-71C41C74B83F">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:21:33 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasien" id="4BE37325-66D7-A03F-7639-1A10CC5E0205">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:21:46 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dokter" id="8407E937-6E08-DE19-91B3-0A348CC93455">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:21:59 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_pemeriksaan" id="A9E596E8-B715-ED62-F684-BEAA6D0DE012">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:22:08 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="diagnosa" id="269A767F-1271-E4F5-7D10-F519095EE424">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 00:46:25 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasien1" id="313E7301-598E-952F-47DD-84EDBDE73938">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 01:20:19 UTC</createdTime>
+<generatorID>A2086EB3-BEDD-013E-9572-BA67CD62D1CE</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<referedAttribute>99B33AB3-7FEC-D244-4759-28A369055800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_dokter1" id="6C85BB1C-14CB-5553-7AC6-2E400DB178A2">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 01:21:13 UTC</createdTime>
+<generatorID>64D53F45-66DA-EBB3-55AB-BFE0C744D9E1</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<referedAttribute>18C158EB-79A1-9FEA-9189-3312FA545C92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="912C6ADA-0C1B-D5FF-D1EF-4593985A5726" name="Rekam Medis PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:21:44 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FC39B4EB-8DAB-1114-3E4B-71C41C74B83F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

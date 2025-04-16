@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42FF5910-D6DF-8873-83B9-B609F937F5F8" name="asuransi">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:49:31 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asuransi" id="ADFE73A6-B1CB-216F-7039-8AB19BBD3996">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:49:45 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_asuransi" id="61DCDC1E-6DAA-DB3B-F474-CA566D9E81B7">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:50:19 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jenis_asuransi" id="C9458C20-BEC7-99E5-E2BC-03166BB8A6C2">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:50:37 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasien" id="22216559-BE36-192A-0E8F-4BB43D17F904">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:53:43 UTC</createdTime>
+<generatorID>F957A5F4-C8E7-55FD-521D-699442A81888</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<referedAttribute>99B33AB3-7FEC-D244-4759-28A369055800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="019A5575-763F-6F4A-A980-1492C2764F7C" name="asuransi PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 03:50:17 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ADFE73A6-B1CB-216F-7039-8AB19BBD3996</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

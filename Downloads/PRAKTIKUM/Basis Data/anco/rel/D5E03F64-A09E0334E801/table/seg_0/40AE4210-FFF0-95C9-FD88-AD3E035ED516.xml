@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40AE4210-FFF0-95C9-FD88-AD3E035ED516" name="Pasien">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:12:12 UTC</createdTime>
+<generatorID>1C8CE8A8-41CF-85CE-9688-43ABE81EF82C</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pasien" id="772CCC97-0347-C959-24B5-672EDAFAD05F">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:12:12 UTC</createdTime>
+<generatorID>99B33AB3-7FEC-D244-4759-28A369055800</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_lahir" id="039A8DCC-2975-1AC6-B422-300063F09D30">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:12:12 UTC</createdTime>
+<generatorID>554412FE-2F3B-903D-9693-ECC3C33F2AA1</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jenis_kelamin" id="99174865-79C7-249B-0B36-BFCDA56973B7">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:12:12 UTC</createdTime>
+<generatorID>280A680A-4296-CAC3-87BE-20C720962BC8</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="FDB53C2F-6EAE-45B8-0412-38C9E1E660C9">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:12:12 UTC</createdTime>
+<generatorID>7E762CA0-292A-5F2C-9EC5-05521DEF80E0</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="golongan_darah" id="B5794021-384C-4C83-8C6F-2B0262179D81">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:12:12 UTC</createdTime>
+<generatorID>E246C9C5-4878-C10A-0A77-5B5E2C1EA25A</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="464CF74E-C731-0CFF-C379-72E9296A2B4D" name="Pasien_PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:12:12 UTC</createdTime>
+<generatorID>0205F457-8D1E-7D0B-1F5B-644C1D915C95</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772CCC97-0347-C959-24B5-672EDAFAD05F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

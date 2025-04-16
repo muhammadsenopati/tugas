@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="609115BD-C13F-EF96-AD6D-229AE6AFA535" name="asuransi">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>42FF5910-D6DF-8873-83B9-B609F937F5F8</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asuransi" id="CC026250-D6EA-48B3-CE9A-52BA37758A99">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>ADFE73A6-B1CB-216F-7039-8AB19BBD3996</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_asuransi" id="23F38D53-5CF1-BC17-E792-500AD02093CF">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>61DCDC1E-6DAA-DB3B-F474-CA566D9E81B7</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jenis_asuransi" id="C165BBA1-9640-222E-FC4C-0A32034D6724">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>C9458C20-BEC7-99E5-E2BC-03166BB8A6C2</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pasien_id_pasien" id="EDB7E5FD-6BC6-2AEC-B5B4-ABF095975163">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>22216559-BE36-192A-0E8F-4BB43D17F904</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04B2D132-C3F3-F705-461C-A0C8D51784E9" referredColumn="772CCC97-0347-C959-24B5-672EDAFAD05F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6CDEB7A-A34E-0F61-1EA4-A36F33D2060A" name="asuransi_PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>019A5575-763F-6F4A-A980-1492C2764F7C</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC026250-D6EA-48B3-CE9A-52BA37758A99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C791084A-03D2-7E17-394C-5EEF82D30FC5" name="asuransi_Pasien_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 05:19:45 UTC</createdTime>
+<generatorID>F957A5F4-C8E7-55FD-521D-699442A81888</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDB7E5FD-6BC6-2AEC-B5B4-ABF095975163"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

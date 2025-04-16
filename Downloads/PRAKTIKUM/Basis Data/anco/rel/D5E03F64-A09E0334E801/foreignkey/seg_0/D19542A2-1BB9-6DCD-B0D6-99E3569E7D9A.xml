@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D19542A2-1BB9-6DCD-B0D6-99E3569E7D9A" containerWithKeyObject="6B5476D3-351D-E7D5-ACB4-3BBC564848A0" localFKIndex="629DEE55-811C-2081-BC5B-BD656172260E" name="Relation_9_Rekam_Medis_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<generatorID>69F61505-505D-8BD6-E6F6-6F88E7F0351F</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<referredTableLongName>Rekam_Medis</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>042A2BE8-1D28-49AE-365F-83E2E55F6A3D</referredTableID>
+<keyObject>A353FFD7-08E8-6CA7-8D2E-3E4A580172D3</keyObject>
+<referredKeyID>A353FFD7-08E8-6CA7-8D2E-3E4A580172D3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_rekam_medis</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

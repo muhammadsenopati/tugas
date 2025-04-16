@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3BFD9049-09C5-FB9B-5C9B-E6B240964AE2" containerWithKeyObject="6B5476D3-351D-E7D5-ACB4-3BBC564848A0" localFKIndex="4488C3D4-C34A-FBFC-051B-D2391F30781C" name="Relation_9_obat_FK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-04-16 06:43:09 UTC</createdTime>
+<generatorID>69F61505-505D-8BD6-E6F6-6F88E7F0351F</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<referredTableLongName>obat</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3025AA01-F4AB-AF83-4278-CD02A8D9F0FE</referredTableID>
+<keyObject>4D7DDBB5-8B78-24CD-F3DE-19170B70CE41</keyObject>
+<referredKeyID>4D7DDBB5-8B78-24CD-F3DE-19170B70CE41</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_obat</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

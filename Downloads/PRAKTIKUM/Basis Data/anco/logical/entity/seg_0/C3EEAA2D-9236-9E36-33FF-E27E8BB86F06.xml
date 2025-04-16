@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C3EEAA2D-9236-9E36-33FF-E27E8BB86F06" name="Tagihan">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 02:48:52 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tagihan" id="F24EAF02-F8E6-B968-7E95-8CC733521730">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:13:40 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasien" id="BB461901-52CD-85D1-8BB7-3EF554E308EA">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:13:46 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_biaya" id="0BEABE47-842D-0064-7F73-6F2C0C15A8BE">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:13:50 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_pembayaran" id="57479E64-D13C-42D9-874C-953EC03DBF00">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:13:55 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tanggal_pembayaran" id="CD8EBD41-D894-6081-F9CE-5A6ACA943B55">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:14:00 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pasien1" id="E75FBF55-3661-741B-30D7-D93F38F40CCF">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-20 02:23:52 UTC</createdTime>
+<generatorID>FA0EB19A-962F-FC93-0648-5835D273B88D</generatorID>
+<ownerDesignName>anco</ownerDesignName>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="true"/>
+</engineerTo>
+<referedAttribute>99B33AB3-7FEC-D244-4759-28A369055800</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="07AFD93F-CDA5-78A4-4F6E-DB66421EC82B" name="Tagihan PK">
+<createdBy>muhammadsenopati</createdBy>
+<createdTime>2025-03-06 04:14:27 UTC</createdTime>
+<ownerDesignName>anco</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="D5E03F64-FED0-18A1-E3F7-A09E0334E801" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F24EAF02-F8E6-B968-7E95-8CC733521730</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
